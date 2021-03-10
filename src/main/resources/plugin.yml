@@ -1,0 +1,5 @@
+name: ShulkerPatch
+version: 1.0
+author: Gav06
+api-version: 1.12.2
+main: me.gavin.shulkerpatch.Main
