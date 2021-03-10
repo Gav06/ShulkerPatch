@@ -1,0 +1,16 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.4.31'
+}
+
+group 'me.gavin'
+version '1.0-SNAPSHOT'
+
+repositories {
+    maven { url = "https://papermc.io/repo/repository/maven-public/" }
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly 'com.destroystokyo.paper:paper-api:1.12.2-R0.1-SNAPSHOT'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib"
+}
